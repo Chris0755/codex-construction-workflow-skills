@@ -1,0 +1,21 @@
+{
+  "columns": {
+    "date": 3,
+    "material": 4,
+    "category": 5,
+    "unit": 6,
+    "out_qty": 7,
+    "in_qty": 8,
+    "doc_no": 10,
+    "car_no": 11,
+    "site": 12,
+    "supplier": 13,
+    "team": 14,
+    "note": 15,
+    "tail_no": 16
+  },
+  "category_value": "aggregate",
+  "unit_value": "t",
+  "formula_column": 9,
+  "formula_template": "=IF(OR(G{row}=\"\",H{row}=\"\",G{row}=0),\"\",G{row})"
+}
