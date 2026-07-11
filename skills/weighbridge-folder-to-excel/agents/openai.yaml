@@ -1,0 +1,4 @@
+interface:
+  display_name: "Weighbridge images to Excel"
+  short_description: "OCR ticket photos into a verified Excel copy"
+  default_prompt: "Use $weighbridge-folder-to-excel to create a verified Excel copy from this weighbridge photo folder."
