@@ -1,0 +1,15 @@
+{
+  "default_site": "water-stabilized station",
+  "document_prefix_replacements": {
+    "TKT0": "TKTQ",
+    "TKT8": "TKTQ"
+  },
+  "supplier_patterns": [
+    {"pattern": "Example Quarry", "supplier": "Example Quarry"}
+  ],
+  "material_rules": [
+    {"pattern": "5[-~]10|1-1", "material": "1-1 aggregate", "spec": "5-10mm"},
+    {"pattern": "10[-~]20|1-2", "material": "1-2 aggregate", "spec": "10-20mm"},
+    {"pattern": "0[-~]5|fines", "material": "fines", "spec": "0-5mm"}
+  ]
+}
