@@ -1,0 +1,4 @@
+interface:
+  display_name: "Strict Excel reconciliation"
+  short_description: "Fill audited data while preserving the original workbook format"
+  default_prompt: "Use $strict-xlsx-reconciliation to add audited new records without changing the upstream Excel format."
